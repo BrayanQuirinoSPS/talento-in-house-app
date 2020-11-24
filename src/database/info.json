@@ -1,0 +1,32 @@
+{
+    "data":[
+        {
+            "id": "1",
+            "name": "Bren",
+            "lastName": "Galicia",
+            "birthdate": "19/11/1998",
+            "email": "bgalicia@spsolutions.com.mx"
+        },
+        {
+            "id": "2",
+            "name": "Brayan",
+            "lastName": "Quirino",
+            "birthdate": "27/03/1998",
+            "email": "bquirino@spsolutions.com.mx"
+        },
+        {
+            "id": "3",
+            "name": "Eduardo",
+            "lastName": "Rodriguez",
+            "birthdate": "18/05/1998",
+            "email": "erodriguez@spsolutions.com.mx"
+        },
+        {
+            "id": "4",
+            "name": "Ajitzi",
+            "lastName": "Quinana",
+            "birthdate": "26/09/1998",
+            "email": "aquinana@spsolutions.com.mx"
+        }
+    ]
+}
