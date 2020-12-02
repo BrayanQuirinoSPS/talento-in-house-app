@@ -13,7 +13,8 @@ const login = (payload, userData) => {
 
 export const LoginAction = (payload) => (dispatch, getState) => {
   return new Promise((resolve, reject) => {
-    axios.all([axios.get(`/usuarios?usuario=${payload.usuario}&contrasena=${payload.contrasena}`)])
+    let fullPath=`?usuario=${payload.usuario}&contrasena=${payload.contrasena}`
+    axios.all([axios.get(`/usuarios`)])
       .then((response) => {
         console.log(response);
         dispatch(login(payload, response));
