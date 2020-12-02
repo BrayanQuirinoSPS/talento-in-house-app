@@ -1,17 +1,15 @@
 import Login from './pages/login'
 import Home from './pages/home'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {Route, HashRouter} from 'react-router-dom'
 function App() {
   return (
 
-      <Router basename='/'>
+      <HashRouter basename='/'>
         <div clasName="App">
-            <Switch>
             <Route exact path="/tih/login" component={Login}/>
             <Route exact path="/tih/home" component={Home}/>
-            </Switch>
         </div>
-      </Router>
+      </HashRouter>
   );
 }
 
